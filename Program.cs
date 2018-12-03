@@ -17,6 +17,7 @@ namespace SuperCalculator
 
         static void Main(string[] args)
         {
+            
 
             DisplayHeader("the Calculator");
             DisplayWelcomeScreen();
@@ -27,9 +28,10 @@ namespace SuperCalculator
         static void DisplayMainMenu()
         {
             bool applicationLoopRunning = true;
+            
             while (applicationLoopRunning)
             
-            {
+            { 
 
                 byte sel;
                 Console.Clear();
@@ -42,14 +44,14 @@ namespace SuperCalculator
                 Console.WriteLine("2. Subtraction");
                 Console.WriteLine("3. Multiplication");
                 Console.WriteLine("4. Division");
-                //Console.WriteLine("5. Exit Calculator");
+                Console.WriteLine("5. Exit Calculator");
                 Console.WriteLine("*******************************");
                 Console.Write("Selection:");
                 sel = Convert.ToByte(Console.ReadLine());
                 DisplayContinuePrompt();
 
                 switch (sel)
-                {
+                {  
                     case 1:
                         // Clear the console
                         Console.Clear();
@@ -81,13 +83,14 @@ namespace SuperCalculator
                     case 5:
                         // Clear Console
                         Console.Clear();
-                        // Execute Percentage
                         ExitCalculator();
+                        applicationLoopRunning = false;
                         break;
 
                     default: 
                         break;
                 }
+                  
             }
         }
 
@@ -95,7 +98,7 @@ namespace SuperCalculator
         {
             Console.Clear();
             Console.WriteLine("\t\tThank You For using My Calculator");
-            DisplayContinuePrompt();
+            
         }
 
         static void Division()
