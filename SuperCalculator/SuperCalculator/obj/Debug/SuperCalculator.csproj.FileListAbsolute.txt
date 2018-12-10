@@ -1,0 +1,8 @@
+G:\CIT110\CapStoneProject\SuperCalculator\SuperCalculator\bin\Debug\SuperCalculator.exe.config
+G:\CIT110\CapStoneProject\SuperCalculator\SuperCalculator\bin\Debug\SuperCalculator.exe
+G:\CIT110\CapStoneProject\SuperCalculator\SuperCalculator\bin\Debug\SuperCalculator.pdb
+G:\CIT110\CapStoneProject\SuperCalculator\SuperCalculator\obj\Debug\SuperCalculator.csprojAssemblyReference.cache
+G:\CIT110\CapStoneProject\SuperCalculator\SuperCalculator\obj\Debug\SuperCalculator.csproj.CoreCompileInputs.cache
+G:\CIT110\CapStoneProject\SuperCalculator\SuperCalculator\obj\Debug\SuperCalculator.exe
+G:\CIT110\CapStoneProject\SuperCalculator\SuperCalculator\obj\Debug\SuperCalculator.pdb
+G:\CIT110\CapStoneProject\SuperCalculator\SuperCalculator\bin\Debug\Data\Data.txt
